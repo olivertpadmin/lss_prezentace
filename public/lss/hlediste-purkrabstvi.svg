@@ -1,0 +1,775 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 866" width="1120" height="866">
+  <style>
+    .seat { transition: fill-opacity .15s }
+    .seat:hover { fill-opacity: 1 }
+    text { font-family: 'Mulish','Helvetica Neue',sans-serif }
+    .sectorlab { font-size: 13px; font-weight: 800; letter-spacing: .16em; fill: #F4EFE6; fill-opacity:.62 }
+    .rowlab { font-size: 8px; font-weight: 700; fill: #F4EFE6; fill-opacity:.3; text-anchor: middle }
+    .stage { font-family:'Panel Sans','Helvetica Neue',sans-serif; font-size: 21px; font-weight:900;
+              letter-spacing:.38em; fill:#1B1207 }
+    .legend { font-size: 11px; font-weight: 700; fill: #F4EFE6; fill-opacity:.55 }
+    .title { font-family:'Panel Sans','Helvetica Neue',sans-serif; font-size:21px; font-weight:900; fill:#F4EFE6 }
+    .subtitle { font-size:11.5px; font-weight:600; fill:#F4EFE6; fill-opacity:.4; letter-spacing:.04em }
+    .cap { font-size:11.5px; font-weight:800; fill:#C9A227; letter-spacing:.04em }
+  </style>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="86%" r="60%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity=".20"/>
+      <stop offset="55%" stop-color="#A33230" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#14101A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stagegrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F6E7B8"/><stop offset="100%" stop-color="#D8B24A"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="1120" height="866" fill="#14101A"/>
+  <rect width="1120" height="866" fill="url(#glow)"/>
+  <text class="title" x="32" y="42">Nejvyšší purkrabství Pražského hradu</text>
+  <text class="subtitle" x="32" y="62">Letní scéna pod širým nebem · hlediště v SVG</text>
+  <text class="cap" x="1088" y="42" text-anchor="end">kapacita 681 diváků</text>
+<ellipse cx="560.0" cy="748" rx="285" ry="110" fill="#C9A227" opacity=".12" filter="url(#soft)"/>
+<rect x="330" y="708" width="460" height="68" rx="7" fill="url(#stagegrad)"/>
+<text class="stage" x="560.0" y="750" text-anchor="middle">JEVIŠTĚ</text>
+<circle cx="348" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle cx="390" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle cx="432" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle cx="474" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle cx="516" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle cx="558" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle cx="600" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle cx="642" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle cx="684" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle cx="726" cy="700" r="3.2" fill="#F6E7B8" opacity=".7"/>
+<circle class="seat s-I" cx="431.7" cy="574.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="442.9" cy="562.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="455.1" cy="552.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="468.2" cy="542.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="482.2" cy="534.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="496.9" cy="528.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="512.2" cy="522.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="527.9" cy="519.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="543.9" cy="516.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="560.0" cy="516.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="576.1" cy="516.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="592.1" cy="519.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="607.8" cy="522.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="623.1" cy="528.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="637.8" cy="534.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="651.8" cy="542.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="664.9" cy="552.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="677.1" cy="562.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="688.3" cy="574.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<text class="rowlab" x="408.9" y="577.5">A</text>
+<text class="rowlab" x="711.1" y="577.5">A</text>
+<circle class="seat s-I" cx="419.2" cy="563.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="430.2" cy="552.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="442.1" cy="541.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="454.9" cy="531.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="468.4" cy="523.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="482.7" cy="516.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="497.4" cy="510.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="512.7" cy="505.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="528.3" cy="502.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="544.1" cy="500.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="560.0" cy="499.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="575.9" cy="500.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="591.7" cy="502.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="607.3" cy="505.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="622.6" cy="510.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="637.3" cy="516.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="651.6" cy="523.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="665.1" cy="531.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="677.9" cy="541.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="689.8" cy="552.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="700.8" cy="563.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<text class="rowlab" x="396.4" y="566.6">B</text>
+<text class="rowlab" x="723.6" y="566.6">B</text>
+<circle class="seat s-I" cx="406.8" cy="552.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="417.6" cy="541.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="429.3" cy="530.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="441.7" cy="521.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="454.9" cy="512.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="468.7" cy="504.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="483.1" cy="498.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="497.9" cy="492.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="513.1" cy="488.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="528.6" cy="485.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="544.2" cy="483.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="560.0" cy="483.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="575.8" cy="483.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="591.4" cy="485.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="606.9" cy="488.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="622.1" cy="492.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="636.9" cy="498.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="651.3" cy="504.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="665.1" cy="512.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="678.3" cy="521.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="690.7" cy="530.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="702.4" cy="541.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="713.2" cy="552.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<text class="rowlab" x="384.0" y="555.8">C</text>
+<text class="rowlab" x="736.0" y="555.8">C</text>
+<circle class="seat s-I" cx="394.3" cy="542.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="405.0" cy="530.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="416.5" cy="519.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="428.7" cy="510.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="441.5" cy="501.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="455.0" cy="493.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="469.0" cy="486.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="483.4" cy="480.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="498.3" cy="475.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="513.4" cy="471.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="528.8" cy="468.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="544.4" cy="467.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="560.0" cy="466.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="575.6" cy="467.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="591.2" cy="468.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="606.6" cy="471.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="621.7" cy="475.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="636.6" cy="480.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="651.0" cy="486.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="665.0" cy="493.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="678.5" cy="501.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="691.3" cy="510.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="703.5" cy="519.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="715.0" cy="530.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="725.7" cy="542.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<text class="rowlab" x="371.5" y="545.0">D</text>
+<text class="rowlab" x="748.5" y="545.0">D</text>
+<circle class="seat s-I" cx="381.9" cy="531.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="392.9" cy="519.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="404.7" cy="508.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="417.2" cy="498.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="430.4" cy="488.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="444.1" cy="480.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="458.5" cy="473.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="473.3" cy="466.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="488.5" cy="461.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="504.0" cy="456.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="519.8" cy="453.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="535.8" cy="451.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="551.9" cy="450.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="568.1" cy="450.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="584.2" cy="451.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="600.2" cy="453.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="616.0" cy="456.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="631.5" cy="461.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="646.7" cy="466.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="661.5" cy="473.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="675.9" cy="480.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="689.6" cy="488.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="702.8" cy="498.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="715.3" cy="508.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="727.1" cy="519.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="738.1" cy="531.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<text class="rowlab" x="359.1" y="534.2">E</text>
+<text class="rowlab" x="760.9" y="534.2">E</text>
+<circle class="seat s-I" cx="369.4" cy="520.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="380.3" cy="508.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="391.9" cy="497.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="404.2" cy="487.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="417.0" cy="477.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="430.5" cy="469.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="444.5" cy="461.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="458.9" cy="454.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="473.8" cy="448.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="489.0" cy="443.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="504.5" cy="439.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="520.2" cy="436.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="536.0" cy="434.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="552.0" cy="433.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="568.0" cy="433.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="584.0" cy="434.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="599.8" cy="436.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="615.5" cy="439.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="631.0" cy="443.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="646.2" cy="448.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="661.1" cy="454.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="675.5" cy="461.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="689.5" cy="469.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="703.0" cy="477.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="715.8" cy="487.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="728.1" cy="497.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="739.7" cy="508.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="750.6" cy="520.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<text class="rowlab" x="346.6" y="523.3">F</text>
+<text class="rowlab" x="773.4" y="523.3">F</text>
+<circle class="seat s-I" cx="357.0" cy="509.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="367.7" cy="497.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="379.2" cy="486.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="391.2" cy="476.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="403.9" cy="467.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="417.0" cy="458.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="430.7" cy="450.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="444.9" cy="442.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="459.4" cy="436.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="474.3" cy="431.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="489.4" cy="426.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="504.9" cy="422.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="520.5" cy="419.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="536.2" cy="418.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="552.1" cy="417.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="567.9" cy="417.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="583.8" cy="418.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="599.5" cy="419.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="615.1" cy="422.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="630.6" cy="426.4" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="645.7" cy="431.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="660.6" cy="436.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="675.1" cy="442.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="689.3" cy="450.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="703.0" cy="458.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="716.1" cy="467.0" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="728.8" cy="476.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="740.8" cy="486.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="752.3" cy="497.9" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="763.0" cy="509.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<text class="rowlab" x="334.2" y="512.5">G</text>
+<text class="rowlab" x="785.8" y="512.5">G</text>
+<circle class="seat s-I" cx="344.5" cy="498.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="355.2" cy="487.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="366.5" cy="476.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="378.3" cy="465.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="390.8" cy="456.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="403.7" cy="447.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="417.1" cy="438.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="431.0" cy="431.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="445.2" cy="424.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="459.8" cy="418.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="474.7" cy="413.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="489.8" cy="409.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="505.2" cy="405.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="520.7" cy="403.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="536.4" cy="401.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="552.1" cy="400.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="567.9" cy="400.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="583.6" cy="401.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="599.3" cy="403.2" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="614.8" cy="405.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="630.2" cy="409.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="645.3" cy="413.5" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="660.2" cy="418.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="674.8" cy="424.6" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="689.0" cy="431.3" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="702.9" cy="438.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="716.3" cy="447.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="729.2" cy="456.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="741.7" cy="465.8" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="753.5" cy="476.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="764.8" cy="487.1" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<circle class="seat s-I" cx="775.5" cy="498.7" r="5.0" fill="#A33230" fill-opacity=".85"/>
+<text class="rowlab" x="321.7" y="501.7">H</text>
+<text class="rowlab" x="798.3" y="501.7">H</text>
+<text class="sectorlab" x="560.0" y="376" text-anchor="middle">PARTER A</text>
+<circle class="seat s-II" cx="293.4" cy="462.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="303.7" cy="450.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="314.5" cy="439.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="325.8" cy="428.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="337.5" cy="418.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="349.7" cy="408.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="362.3" cy="399.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="375.3" cy="391.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="388.7" cy="383.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="402.4" cy="375.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="416.5" cy="369.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="430.8" cy="362.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="445.4" cy="357.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="460.2" cy="352.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="475.2" cy="348.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="490.4" cy="345.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="505.7" cy="342.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="521.1" cy="340.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="536.7" cy="338.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="552.2" cy="338.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="567.8" cy="338.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="583.3" cy="338.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="598.9" cy="340.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="614.3" cy="342.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="629.6" cy="345.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="644.8" cy="348.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="659.8" cy="352.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="674.6" cy="357.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="689.2" cy="362.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="703.5" cy="369.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="717.6" cy="375.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="731.3" cy="383.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="744.7" cy="391.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="757.7" cy="399.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="770.3" cy="408.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="782.5" cy="418.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="794.2" cy="428.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="805.5" cy="439.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="816.3" cy="450.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="826.6" cy="462.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<text class="rowlab" x="270.5" y="465.3">J</text>
+<text class="rowlab" x="849.5" y="465.3">J</text>
+<circle class="seat s-II" cx="280.4" cy="451.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="290.6" cy="439.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="301.4" cy="428.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="312.6" cy="417.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="324.2" cy="407.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="336.3" cy="397.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="348.7" cy="388.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="361.6" cy="379.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="374.8" cy="371.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="388.4" cy="363.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="402.2" cy="356.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="416.4" cy="350.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="430.8" cy="344.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="445.4" cy="339.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="460.3" cy="334.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="475.3" cy="331.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="490.5" cy="327.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="505.8" cy="325.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="521.2" cy="323.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="536.7" cy="321.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="552.2" cy="321.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="567.8" cy="321.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="583.3" cy="321.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="598.8" cy="323.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="614.2" cy="325.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="629.5" cy="327.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="644.7" cy="331.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="659.7" cy="334.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="674.6" cy="339.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="689.2" cy="344.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="703.6" cy="350.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="717.8" cy="356.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="731.6" cy="363.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="745.2" cy="371.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="758.4" cy="379.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="771.3" cy="388.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="783.7" cy="397.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="795.8" cy="407.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="807.4" cy="417.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="818.6" cy="428.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="829.4" cy="439.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="839.6" cy="451.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<text class="rowlab" x="257.4" y="454.4">K</text>
+<text class="rowlab" x="862.6" y="454.4">K</text>
+<circle class="seat s-II" cx="267.4" cy="440.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="277.6" cy="428.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="288.2" cy="417.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="299.4" cy="406.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="310.9" cy="396.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="322.9" cy="386.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="335.2" cy="377.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="347.9" cy="368.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="361.0" cy="359.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="374.4" cy="352.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="388.1" cy="344.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="402.1" cy="338.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="416.3" cy="332.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="430.8" cy="326.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="445.5" cy="321.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="460.4" cy="317.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="475.4" cy="313.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="490.6" cy="310.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="505.9" cy="307.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="521.3" cy="306.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="536.8" cy="304.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="552.2" cy="304.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="567.8" cy="304.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="583.2" cy="304.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="598.7" cy="306.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="614.1" cy="307.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="629.4" cy="310.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="644.6" cy="313.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="659.6" cy="317.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="674.5" cy="321.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="689.2" cy="326.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="703.7" cy="332.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="717.9" cy="338.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="731.9" cy="344.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="745.6" cy="352.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="759.0" cy="359.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="772.1" cy="368.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="784.8" cy="377.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="797.1" cy="386.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="809.1" cy="396.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="820.6" cy="406.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="831.8" cy="417.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="842.4" cy="428.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="852.6" cy="440.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<text class="rowlab" x="244.4" y="443.5">L</text>
+<text class="rowlab" x="875.6" y="443.5">L</text>
+<circle class="seat s-II" cx="254.3" cy="429.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="264.5" cy="417.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="275.1" cy="406.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="286.2" cy="395.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="297.6" cy="385.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="309.5" cy="375.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="321.7" cy="366.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="334.3" cy="357.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="347.3" cy="348.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="360.5" cy="340.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="374.0" cy="333.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="387.9" cy="326.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="402.0" cy="319.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="416.3" cy="313.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="430.8" cy="308.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="445.6" cy="303.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="460.5" cy="299.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="475.5" cy="296.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="490.7" cy="293.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="506.0" cy="290.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="521.4" cy="288.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="536.8" cy="287.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="552.3" cy="287.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="567.7" cy="287.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="583.2" cy="287.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="598.6" cy="288.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="614.0" cy="290.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="629.3" cy="293.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="644.5" cy="296.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="659.5" cy="299.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="674.4" cy="303.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="689.2" cy="308.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="703.7" cy="313.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="718.0" cy="319.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="732.1" cy="326.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="746.0" cy="333.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="759.5" cy="340.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="772.7" cy="348.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="785.7" cy="357.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="798.3" cy="366.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="810.5" cy="375.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="822.4" cy="385.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="833.8" cy="395.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="844.9" cy="406.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="855.5" cy="417.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="865.7" cy="429.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<text class="rowlab" x="231.4" y="432.5">M</text>
+<text class="rowlab" x="888.6" y="432.5">M</text>
+<circle class="seat s-II" cx="241.3" cy="418.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="251.5" cy="407.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="262.0" cy="395.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="273.0" cy="384.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="284.4" cy="374.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="296.2" cy="364.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="308.3" cy="354.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="320.8" cy="345.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="333.6" cy="337.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="346.7" cy="328.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="360.1" cy="321.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="373.8" cy="314.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="387.7" cy="307.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="401.9" cy="301.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="416.3" cy="295.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="430.9" cy="290.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="445.6" cy="286.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="460.6" cy="282.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="475.6" cy="278.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="490.8" cy="275.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="506.1" cy="273.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="521.4" cy="271.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="536.8" cy="270.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="552.3" cy="270.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="567.7" cy="270.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="583.2" cy="270.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="598.6" cy="271.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="613.9" cy="273.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="629.2" cy="275.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="644.4" cy="278.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="659.4" cy="282.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="674.4" cy="286.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="689.1" cy="290.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="703.7" cy="295.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="718.1" cy="301.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="732.3" cy="307.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="746.2" cy="314.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="759.9" cy="321.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="773.3" cy="328.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="786.4" cy="337.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="799.2" cy="345.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="811.7" cy="354.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="823.8" cy="364.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="835.6" cy="374.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="847.0" cy="384.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="858.0" cy="395.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="868.5" cy="407.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="878.7" cy="418.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<text class="rowlab" x="218.4" y="421.6">N</text>
+<text class="rowlab" x="901.6" y="421.6">N</text>
+<circle class="seat s-II" cx="228.3" cy="407.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="238.4" cy="396.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="249.0" cy="384.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="259.9" cy="373.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="271.2" cy="363.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="282.9" cy="353.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="294.9" cy="343.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="307.2" cy="334.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="319.9" cy="325.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="332.9" cy="317.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="346.2" cy="309.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="359.7" cy="302.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="373.5" cy="295.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="387.6" cy="288.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="401.8" cy="282.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="416.3" cy="277.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="430.9" cy="272.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="445.7" cy="268.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="460.6" cy="264.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="475.7" cy="261.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="490.9" cy="258.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="506.2" cy="256.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="521.5" cy="254.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="536.9" cy="253.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="552.3" cy="253.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="567.7" cy="253.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="583.1" cy="253.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="598.5" cy="254.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="613.8" cy="256.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="629.1" cy="258.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="644.3" cy="261.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="659.4" cy="264.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="674.3" cy="268.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="689.1" cy="272.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="703.7" cy="277.6" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="718.2" cy="282.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="732.4" cy="288.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="746.5" cy="295.2" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="760.3" cy="302.1" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="773.8" cy="309.5" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="787.1" cy="317.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="800.1" cy="325.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="812.8" cy="334.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="825.1" cy="343.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="837.1" cy="353.3" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="848.8" cy="363.4" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="860.1" cy="373.9" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="871.0" cy="384.8" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="881.6" cy="396.0" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<circle class="seat s-II" cx="891.7" cy="407.7" r="5.0" fill="#C9772F" fill-opacity=".85"/>
+<text class="rowlab" x="205.3" y="410.7">O</text>
+<text class="rowlab" x="914.7" y="410.7">O</text>
+<text class="sectorlab" x="560.0" y="229" text-anchor="middle">PARTER B</text>
+<circle class="seat s-III" cx="188.5" cy="385.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="198.5" cy="373.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="208.8" cy="361.8" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="219.4" cy="350.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="230.5" cy="339.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="241.9" cy="329.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="253.6" cy="319.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="265.6" cy="309.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="277.9" cy="300.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="290.6" cy="291.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="303.5" cy="282.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="316.7" cy="274.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="330.1" cy="266.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="343.8" cy="259.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="357.7" cy="252.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="371.8" cy="246.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="386.2" cy="240.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="400.7" cy="235.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="415.3" cy="230.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="430.1" cy="226.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="445.1" cy="222.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="460.2" cy="218.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="475.4" cy="215.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="490.6" cy="213.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="506.0" cy="211.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="521.4" cy="209.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="536.8" cy="208.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="552.3" cy="208.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="567.7" cy="208.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="583.2" cy="208.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="598.6" cy="209.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="614.0" cy="211.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="629.4" cy="213.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="644.6" cy="215.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="659.8" cy="218.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="674.9" cy="222.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="689.9" cy="226.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="704.7" cy="230.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="719.3" cy="235.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="733.8" cy="240.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="748.2" cy="246.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="762.3" cy="252.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="776.2" cy="259.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="789.9" cy="266.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="803.3" cy="274.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="816.5" cy="282.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="829.4" cy="291.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="842.1" cy="300.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="854.4" cy="309.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="866.4" cy="319.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="878.1" cy="329.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="889.5" cy="339.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="900.6" cy="350.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="911.2" cy="361.8" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="921.5" cy="373.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="931.5" cy="385.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<text class="rowlab" x="165.4" y="388.2">P</text>
+<text class="rowlab" x="954.6" y="388.2">P</text>
+<circle class="seat s-III" cx="174.5" cy="373.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="184.5" cy="362.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="194.8" cy="350.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="205.4" cy="339.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="216.4" cy="328.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="227.8" cy="317.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="239.4" cy="307.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="251.4" cy="297.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="263.7" cy="288.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="276.3" cy="279.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="289.1" cy="270.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="302.2" cy="262.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="315.6" cy="254.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="329.2" cy="247.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="343.0" cy="240.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="357.0" cy="233.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="371.2" cy="227.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="385.7" cy="221.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="400.2" cy="216.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="415.0" cy="211.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="429.9" cy="207.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="444.9" cy="203.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="460.0" cy="200.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="475.2" cy="197.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="490.5" cy="194.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="505.9" cy="193.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="521.3" cy="191.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="536.8" cy="190.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="552.3" cy="190.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="567.7" cy="190.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="583.2" cy="190.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="598.7" cy="191.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="614.1" cy="193.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="629.5" cy="194.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="644.8" cy="197.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="660.0" cy="200.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="675.1" cy="203.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="690.1" cy="207.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="705.0" cy="211.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="719.8" cy="216.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="734.3" cy="221.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="748.8" cy="227.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="763.0" cy="233.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="777.0" cy="240.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="790.8" cy="247.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="804.4" cy="254.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="817.8" cy="262.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="830.9" cy="270.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="843.7" cy="279.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="856.3" cy="288.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="868.6" cy="297.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="880.6" cy="307.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="892.2" cy="317.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="903.6" cy="328.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="914.6" cy="339.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="925.2" cy="350.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="935.5" cy="362.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="945.5" cy="373.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<text class="rowlab" x="151.4" y="376.9">Q</text>
+<text class="rowlab" x="968.6" y="376.9">Q</text>
+<circle class="seat s-III" cx="160.5" cy="362.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="170.3" cy="350.8" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="180.4" cy="339.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="190.9" cy="328.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="201.7" cy="317.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="212.7" cy="307.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="224.1" cy="296.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="235.8" cy="287.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="247.8" cy="277.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="260.1" cy="268.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="272.6" cy="259.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="285.3" cy="251.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="298.4" cy="243.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="311.6" cy="236.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="325.1" cy="228.8" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="338.7" cy="222.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="352.6" cy="215.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="366.6" cy="209.8" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="380.8" cy="204.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="395.2" cy="199.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="409.7" cy="194.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="424.4" cy="190.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="439.1" cy="186.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="454.0" cy="183.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="469.0" cy="180.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="484.0" cy="177.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="499.1" cy="175.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="514.3" cy="174.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="529.5" cy="172.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="544.8" cy="172.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="560.0" cy="172.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="575.2" cy="172.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="590.5" cy="172.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="605.7" cy="174.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="620.9" cy="175.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="636.0" cy="177.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="651.0" cy="180.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="666.0" cy="183.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="680.9" cy="186.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="695.6" cy="190.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="710.3" cy="194.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="724.8" cy="199.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="739.2" cy="204.2" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="753.4" cy="209.8" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="767.4" cy="215.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="781.3" cy="222.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="794.9" cy="228.8" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="808.4" cy="236.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="821.6" cy="243.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="834.7" cy="251.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="847.4" cy="259.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="859.9" cy="268.6" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="872.2" cy="277.7" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="884.2" cy="287.1" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="895.9" cy="296.9" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="907.3" cy="307.0" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="918.3" cy="317.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="929.1" cy="328.3" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="939.6" cy="339.4" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="949.7" cy="350.8" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<circle class="seat s-III" cx="959.5" cy="362.5" r="5.0" fill="#7C6A9C" fill-opacity=".85"/>
+<text class="rowlab" x="137.4" y="365.5">R</text>
+<text class="rowlab" x="982.6" y="365.5">R</text>
+<text class="sectorlab" x="560.0" y="148" text-anchor="middle">TRIBUNA C</text>
+<circle class="seat s-VIP" cx="37.4" cy="367.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="50.9" cy="367.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="64.4" cy="367.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="37.4" cy="380.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="50.9" cy="380.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="64.4" cy="380.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="37.4" cy="394.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="50.9" cy="394.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="64.4" cy="394.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="37.4" cy="407.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="50.9" cy="407.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="64.4" cy="407.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<text class="sectorlab" x="51" y="353" text-anchor="middle">LÓŽE L</text>
+<circle class="seat s-VIP" cx="1055.6" cy="367.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1069.1" cy="367.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1082.6" cy="367.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1055.6" cy="380.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1069.1" cy="380.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1082.6" cy="380.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1055.6" cy="394.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1069.1" cy="394.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1082.6" cy="394.3" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1055.6" cy="407.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1069.1" cy="407.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<circle class="seat s-VIP" cx="1082.6" cy="407.8" r="5.0" fill="#C9A227" fill-opacity=".85"/>
+<text class="sectorlab" x="1070" y="353" text-anchor="middle">LÓŽE P</text>
+<circle class="seat s-WCH" cx="483.0" cy="624.0" r="5.0" fill="#3F7D6E" fill-opacity=".85"/>
+<circle class="seat s-WCH" cx="505.0" cy="624.0" r="5.0" fill="#3F7D6E" fill-opacity=".85"/>
+<circle class="seat s-WCH" cx="527.0" cy="624.0" r="5.0" fill="#3F7D6E" fill-opacity=".85"/>
+<circle class="seat s-WCH" cx="549.0" cy="624.0" r="5.0" fill="#3F7D6E" fill-opacity=".85"/>
+<circle class="seat s-WCH" cx="571.0" cy="624.0" r="5.0" fill="#3F7D6E" fill-opacity=".85"/>
+<circle class="seat s-WCH" cx="593.0" cy="624.0" r="5.0" fill="#3F7D6E" fill-opacity=".85"/>
+<circle class="seat s-WCH" cx="615.0" cy="624.0" r="5.0" fill="#3F7D6E" fill-opacity=".85"/>
+<circle class="seat s-WCH" cx="637.0" cy="624.0" r="5.0" fill="#3F7D6E" fill-opacity=".85"/>
+<text class="sectorlab" x="560.0" y="608" text-anchor="middle">VOZÍČKÁŘI</text>
+<circle cx="32" cy="840" r="5" fill="#A33230" fill-opacity=".9"/>
+<text class="legend" x="43" y="844">I. cena</text>
+<circle cx="140" cy="840" r="5" fill="#C9772F" fill-opacity=".9"/>
+<text class="legend" x="151" y="844">II. cena</text>
+<circle cx="248" cy="840" r="5" fill="#7C6A9C" fill-opacity=".9"/>
+<text class="legend" x="259" y="844">III. cena</text>
+<circle cx="356" cy="840" r="5" fill="#C9A227" fill-opacity=".9"/>
+<text class="legend" x="367" y="844">Lóže</text>
+<circle cx="464" cy="840" r="5" fill="#3F7D6E" fill-opacity=".9"/>
+<text class="legend" x="475" y="844">Vozíčkáři</text>
+</svg>
