@@ -43,11 +43,13 @@ const PRODUCTS = [
   {
     name: 'Mobilní aplikace (volitelně)',
     icon: '📱',
+    status: 'negotiation',
     items: [{ label: 'Doplňkový kanál pro diváky' }],
   },
   {
     name: 'CRM a diváci',
     icon: '👥',
+    status: 'negotiation',
     items: [{ label: 'Implementace' }, { label: 'Provoz (12 měsíců)' }],
   },
   {
@@ -144,8 +146,8 @@ export default function LssNabidkaPage() {
             shakespearovské slavnosti
           </h1>
           <p className="text-lg max-w-xl leading-relaxed" style={{ color: 'rgba(246,241,232,0.42)' }}>
-            Kompletní digitální ekosystém zahrnutý v provizi z prodeje vstupenek. Žádné vstupní
-            investice, žádné skryté poplatky.
+            Jádro digitálního ekosystému zahrnuté v provizi z prodeje vstupenek. Mobilní aplikace
+            a CRM jsou volitelné části k jednání podle finálního rozsahu spolupráce.
           </p>
         </motion.div>
       </div>
@@ -206,7 +208,7 @@ export default function LssNabidkaPage() {
                     <span className="text-sm" style={{ color: 'rgba(246,241,232,0.5)' }}>
                       {item.label}
                     </span>
-                    <IncludedBadge />
+                    <IncludedBadge negotiation={product.status === 'negotiation'} />
                   </div>
                   <div className="hidden md:grid items-center" style={{ gridTemplateColumns: '1fr 180px 200px' }}>
                     <span className="text-sm" style={{ color: 'rgba(246,241,232,0.5)' }}>
@@ -214,7 +216,7 @@ export default function LssNabidkaPage() {
                     </span>
                     <div />
                     <div className="flex justify-center">
-                      <IncludedBadge />
+                      <IncludedBadge negotiation={product.status === 'negotiation'} />
                     </div>
                   </div>
                 </div>
@@ -281,15 +283,15 @@ export default function LssNabidkaPage() {
                 className="text-3xl md:text-4xl font-black mt-3 mb-3 leading-tight"
                 style={{ fontFamily: "'Panel Sans', sans-serif", color: LSS.paper }}
               >
-                Celý ekosystém
+                Jádro ekosystému
                 <br />
                 <span style={{ color: ACCENT_LIGHT }}>zahrnuto v provizi</span>
               </h2>
               <p className="text-sm leading-relaxed max-w-lg mb-6" style={{ color: 'rgba(246,241,232,0.5)' }}>
-                Implementaci ani provoz neplatíte dopředu. Zakreslení hledišť všech scén, migrace
-                databáze abonentů, CRM, partnerský portál, odbavení pomocí scannerů a podpora v hrací dny jsou
-                pokryté provizí z prodaných vstupenek. Festival nenese žádné vstupní náklady — platí se
-                až z toho, co se skutečně prodá.
+                Implementaci ani provoz základního řešení neplatíte dopředu. Zakreslení hledišť všech scén,
+                migrace databáze abonentů, partnerský portál, odbavení pomocí scannerů a podpora v hrací dny jsou
+                pokryté provizí z prodaných vstupenek. Mobilní aplikace a CRM jsou k jednání podle požadovaného
+                rozsahu. Festival tak u základního řešení nenese žádné vstupní náklady.
               </p>
 
               <div className="flex flex-col gap-2">
@@ -368,7 +370,22 @@ export default function LssNabidkaPage() {
   )
 }
 
-function IncludedBadge() {
+function IncludedBadge({ negotiation = false }: { negotiation?: boolean }) {
+  if (negotiation) {
+    return (
+      <span
+        className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full"
+        style={{
+          background: 'rgba(246,241,232,0.06)',
+          color: 'rgba(246,241,232,0.7)',
+          border: '1px solid rgba(246,241,232,0.16)',
+        }}
+      >
+        K jednání
+      </span>
+    )
+  }
+
   return (
     <span
       className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full"
